@@ -157,7 +157,7 @@ section#news img {
     transition: all 0.9s ease;
   }
 }
-@media screen and (min-width: 351px) {
+@media screen and (min-width: 350px) {
   header ul li {
     width: 50%;
     margin: 4px;
