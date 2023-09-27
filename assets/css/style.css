@@ -157,10 +157,49 @@ section#news img {
     transition: all 0.9s ease;
   }
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 550px) and (max-width: 780px) {
+  header {
+    top: 20px;
+    position: relative;
+    height: 15vh;
+  }
   header ul li {
     width: 50%;
     transition: all 0.9s ease;
+  }
+  #logo-wrap {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 28%;
+    height: 60%;
+    margin-top: 4%;
+  }
+  #logo-wrap p {
+    font-size: 1.2em;
+  }
+  #logo-wrap img {
+    padding: 0;
+  }
+  header ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 15%;
+    height: 40px;
+  }
+  header ul li:first-of-type {
+    left: 0%;
+  }
+  header ul li:last-of-type {
+    right: 0%;
+  }
+  header ul li:nth-of-type(2) {
+    left: 16%;
+  }
+  header ul li:nth-of-type(3) {
+    right: 16%;
   }
 }
 @media screen and (min-width: 780px) {
