@@ -151,9 +151,16 @@ section#news img {
   margin: 30px 5%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 350px) {
   header ul li {
     width: 35%;
+    transition: all 0.9s ease;
+  }
+}
+@media screen and (min-width: 351px) {
+  header ul li {
+    width: 50%;
+    margin: 4px;
     transition: all 0.9s ease;
   }
 }
@@ -163,10 +170,7 @@ section#news img {
     position: relative;
     height: 15vh;
   }
-  header ul li {
-    width: 50%;
-    transition: all 0.9s ease;
-  }
+
   #logo-wrap {
     position: absolute;
     left: 50%;
